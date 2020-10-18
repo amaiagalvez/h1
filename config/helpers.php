@@ -6,6 +6,6 @@
 
 return [
 
-    'user' => App\Storage\Eloquent\Models\User::class,
+    'user' => \Izt\Basics\Storage\Eloquent\Models\User::class,
 
 ];
