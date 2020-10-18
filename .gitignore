@@ -6,5 +6,3 @@ node_modules
 .phpunit.result.cache
 package-lock.json
 mix-manifest.json
-resources/assets/css
-resources/assets/js
