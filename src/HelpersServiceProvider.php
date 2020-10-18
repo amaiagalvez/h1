@@ -10,6 +10,7 @@ class HelpersServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadTranslationsFrom($this->basePath('resources/lang'), 'helpers');
+        $this->loadViewsFrom($this->basePath('resources/views'), 'helpers');
 
         $this->publishes([
             $this->basePath('config/helpers.php') => base_path('config/helpers.php')
