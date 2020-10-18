@@ -38,7 +38,7 @@
                     <a class="c-header-nav-link"
                        href="{{route('login')}}" role="button"
                        aria-expanded="false">
-                        <i class="far fa-user-circle"></i> {{ trans('basics::auth.login') }}
+                        <i class="far fa-user-circle"></i> {{ trans('helpers::helpers.login') }}
                     </a>
                 </li>
 
