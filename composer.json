@@ -1,0 +1,41 @@
+{
+    "name": "izt/helpers",
+    "description": "Helpers, functions and Abstracts",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Amaia",
+            "email": "amaia@izt.coop"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "league/fractal": "^0.19.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "autoload": {
+        "files": [
+            "src/Helpers/html.php",
+            "src/Helpers/date.php",
+            "src/Helpers/list.php",
+            "src/Helpers/test.php"
+        ],
+        "psr-4": {
+            "Izt\\Helpers\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Izt\\Helpers\\Tests\\" : "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Izt\\Helpers\\HelpersServiceProvider"
+            ]
+        }
+    }
+}
