@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 /**
  * Class AbstractRepository
- * @package App\Storage\Eloquent\Repositories
+ * @package Izt\Helpers\Storage\Eloquent\Repositories
  */
 abstract class AbstractRepository
 {
