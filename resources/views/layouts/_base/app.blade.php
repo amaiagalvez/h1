@@ -17,8 +17,6 @@
     <link href="{{ asset('helpers/css/datatables.min.css') }}" rel="stylesheet">
     <link href="{{ asset('helpers/css/styles_helpers.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('basics/css/styles_basics.css') }}" rel="stylesheet">
-
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     @yield('css')
